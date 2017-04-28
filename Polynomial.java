@@ -1,11 +1,11 @@
 
-public class polynomial {
+public class Polynomial {
 	
 	private int coefficient;
 	private int power;
 	private String algebra;
 	
-	public polynomial(String polynomial){
+	public Polynomial(String polynomial){
 		
 		//split user input into coefficient and power
 		String[] split = polynomial.split("\\^");
