@@ -8,7 +8,7 @@ public class Differentiate {
 	public Differentiate(Polynomial givenPoly){
 		
 		resultCoefficient = givenPoly.returnCoefficient() * givenPoly.returnPower();
-		resultPower = givenPoly.returnCoefficient() -1;
+		resultPower = givenPoly.returnPower() -1;
 	}//Differentiate
 	
 	public int returnResultCoefficient(){

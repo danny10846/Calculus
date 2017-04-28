@@ -21,14 +21,8 @@ public class Caclulus{
 		Polynomial givenPoly = new Polynomial(polynomial);
 		
 		//error handling for anything other than 1 or 2 
-		do {
-			System.out.println("Please choose 1 for differentiate and 2 for integrate");
-		    while (!input.hasNextInt()) {
-		        System.out.println("That's not a number!");
-		        input.next();
-		    }
-		    calculus = input.nextInt();
-		} while (calculus != 1 || calculus != 2);
+		
+		calculus = input.nextInt();
 		
 		
 		
