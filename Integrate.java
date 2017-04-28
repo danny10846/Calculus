@@ -8,14 +8,14 @@ public class Integrate {
 		
 		resultPower = givenPoly.returnPower() +1;
 		resultCoefficient = (givenPoly.returnCoefficient() / (double)(resultPower));
-	}
+	}//Integrate
 	
 	public double returnResultCoefficient(){
 		return resultCoefficient;
-	}
+	}//returnResultCoefficient
 	
 	public int returnResultPower(){
 		return resultPower;
-	}
+	}//returnResultPower
 
 }

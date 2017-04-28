@@ -19,7 +19,8 @@ public class Polynomial {
 				
 		//retrieve from array and turn to ints
 		power = Integer.parseInt(pt2);
-	}//polynomial
+		
+	}//Polynomial
 	
 	public int returnCoefficient(){
 		return coefficient;
@@ -31,5 +32,5 @@ public class Polynomial {
 	
 	public String returnAlgebra(){
 		return algebra;
-	}
+	}//returnPower
 }
